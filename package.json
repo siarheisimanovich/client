@@ -17,7 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint src/*.js --ignore-pattern src/*.test.js"
   },
   "eslintConfig": {
     "extends": [
@@ -40,6 +41,8 @@
   "devDependencies": {
     "@commitlint/cli": "^17.2.0",
     "@commitlint/config-conventional": "^17.2.0",
+    "eslint": "^8.26.0",
+    "eslint-plugin-react": "^7.31.10",
     "husky": "^8.0.1"
   }
 }
