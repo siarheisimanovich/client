@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "proxy": "http://localhost:3000/",
   "private": true,
   "dependencies": {
@@ -18,7 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint src/*.js --ignore-pattern src/*.test.js"
+    "lint": "eslint src/*.js --ignore-pattern src/*.test.js",
+    "release": "standard-version"
   },
   "eslintConfig": {
     "extends": [
